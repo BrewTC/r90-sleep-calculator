@@ -1,0 +1,17 @@
+{
+  "name": "R90 睡眠週期計算器",
+  "short_name": "R90 Sleep",
+  "description": "依照起床時間回推 90 分鐘睡眠週期的建議上床時間。",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#080b18",
+  "theme_color": "#090d1d",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
