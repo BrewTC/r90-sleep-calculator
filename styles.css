@@ -131,12 +131,17 @@ p {
 
 h1 {
   margin-bottom: 28px;
-  font-size: clamp(44px, 6vw, 78px);
+  font-size: clamp(44px, 5vw, 68px);
   line-height: 1.18;
   letter-spacing: -0.055em;
 }
 
-h1 span {
+.hero-title-line {
+  display: block;
+  white-space: nowrap;
+}
+
+.hero-title-accent {
   color: var(--primary-light);
 }
 
@@ -778,7 +783,7 @@ footer p {
   }
 
   h1 {
-    font-size: 42px;
+    font-size: clamp(32px, 10.5vw, 42px);
   }
 
   .orbit-visual {
