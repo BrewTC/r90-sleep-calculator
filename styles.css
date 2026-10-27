@@ -728,6 +728,12 @@ footer p {
   margin: 0;
 }
 
+.footer-notes {
+  display: grid;
+  gap: 4px;
+  text-align: right;
+}
+
 @media (max-width: 820px) {
   nav {
     display: none;
@@ -835,6 +841,10 @@ footer p {
   footer {
     flex-direction: column;
     gap: 8px;
+  }
+
+  .footer-notes {
+    text-align: left;
   }
 }
 
